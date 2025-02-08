@@ -1,0 +1,1 @@
+The solution is to use the strict comparison operator (`===`) instead of the loose comparison operator (`==`). The strict comparison operator checks for both value and type equality, preventing the type juggling that causes the unexpected behavior.  Using `===` ensures that the condition is only met when both the value and type are identical.
